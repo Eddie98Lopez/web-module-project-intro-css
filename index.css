@@ -51,6 +51,7 @@ to all content such that your webpage matches the design file. This will include
         font-family: 'Roboto Mono', monospace;
         margin: auto 10px;
         width: inherit;
+        justify-content: center;
     }
     nav{
         margin: 5rem auto;
@@ -107,25 +108,44 @@ to all content such that your webpage matches the design file. This will include
 .header div h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3rem;
+ 
 
 }
+.header div h2{
+    margin: 1rem;
+}
+
+
 
 
 .main{
 
     background-color: #DDB9A3;
-    padding: auto;
+    color: white;
+    padding: 2rem;
     margin: 4rem 2rem;
 
 }
+.main p {
+    margin:1rem;
+}
 
 .main2{
-    text-align:center;
+  
+    text-align: center;
+
+}
+
+.main2 p {
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 10%;
 }
 
 .icon{
     width: 20rem;
 }
+
 
 #footimg{
 
