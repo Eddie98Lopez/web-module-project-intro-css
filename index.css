@@ -23,3 +23,60 @@ vertical-align: baseline;
 /* Above is the CSS Reset. 
 Now begin with your own CSS */
 
+/*Color the background of items in the navigation bar and footer with the following colors:
+        Plan your Visit: #FF764E
+        Learn About the Park: #5ED3EB
+        Get Involved: #FFCD69
+
+Change all font colors and styles according to design file
+
+Yosemite Park Guide font is called Chelsea Market and can be found on google fonts
+All other text is Roboto Mono, also available on google fonts
+
+Color the background of the main text body with #DDB9A3
+
+Color the background of the footer with #F9E7DC
+
+Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+
+Apply box model properties (content, padding, margin, and border) 
+to all content such that your webpage matches the design file. This will include at least:
+    -A round image in the header
+    -Round corners on navigation and footer items
+    -Header image and text side by side
+    -Centered content and margins around content
+    -Footer image positioning*/
+
+    body{
+        font-family: 'Roboto Mono', monospace;
+    }
+    nav{
+        margin: 3rem auto;
+        width: 100%;
+        text-align: center;
+    }
+
+       
+    nav ul a{
+        
+        padding: 2rem;
+        margin-left:10px;
+        margin-right:10px;
+        vertical-align: center;
+        text-decoration-line: none;
+        color: white;
+        border-radius: 15px;
+
+    }
+   
+    #link1{
+        background-color: #FF764E;
+    }
+
+    #link2{
+        background-color: #5ed3eb;
+    }
+
+    #link3{
+        background-color: #ffcd69;
+    }
