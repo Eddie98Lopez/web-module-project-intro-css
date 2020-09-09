@@ -49,9 +49,11 @@ to all content such that your webpage matches the design file. This will include
 
     body{
         font-family: 'Roboto Mono', monospace;
+        margin: auto 10px;
+        width: inherit;
     }
     nav{
-        margin: 3rem auto;
+        margin: 5rem auto;
         width: 100%;
         text-align: center;
     }
@@ -60,12 +62,13 @@ to all content such that your webpage matches the design file. This will include
     nav ul a{
         
         padding: 2rem;
-        margin-left:10px;
-        margin-right:10px;
+        margin-left:20px;
+        margin-right:20px;
         vertical-align: center;
         text-decoration-line: none;
         color: white;
         border-radius: 15px;
+        display: inline-block;
 
     }
    
@@ -80,3 +83,56 @@ to all content such that your webpage matches the design file. This will include
     #link3{
         background-color: #ffcd69;
     }
+
+.header{
+        height: fit-content;
+    
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+#imgHeader{
+    border-radius:50%;
+    width: 25rem;
+  
+    
+}
+
+.header div{
+    height: inherit;
+    padding: 2rem;
+    text-align: center;
+}
+.header div h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+
+}
+
+
+.main{
+
+    background-color: #DDB9A3;
+    padding: auto;
+    margin: 4rem 2rem;
+
+}
+
+.main2{
+    text-align:center;
+}
+
+.icon{
+    width: 20rem;
+}
+
+#footimg{
+
+    width: 100%;
+}
+
+.footer nav{
+    background-color: #F9E7DC;
+    vertical-align: center;
+}
