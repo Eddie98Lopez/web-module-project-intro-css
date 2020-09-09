@@ -54,7 +54,7 @@ to all content such that your webpage matches the design file. This will include
         justify-content: center;
     }
     nav{
-        margin: 5rem auto;
+        margin: 50px auto;
         width: 100%;
         text-align: center;
         display: flex;
@@ -88,8 +88,6 @@ to all content such that your webpage matches the design file. This will include
     }
 
 .header{
-        height: fit-content;
-    
         display:flex;
         justify-content: center;
         align-items: center;
@@ -145,16 +143,14 @@ to all content such that your webpage matches the design file. This will include
 }
 
 .icon{
-    width: 20rem;
+    width: 10rem;
 }
 
 .footer{
-    max-width: inherit;
     position: relative;
     overflow:hidden;
     width: 100%;
     max-width: 100%;
-
 }
 .footer img {
     max-width: 100%;
@@ -163,9 +159,9 @@ to all content such that your webpage matches the design file. This will include
 .footer nav{
     background-color: #F9E7DC;
     vertical-align: center;
-    padding: 4rem;
+    padding: 5rem;
     position: absolute;
-    top: 72%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
