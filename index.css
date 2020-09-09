@@ -57,14 +57,16 @@ to all content such that your webpage matches the design file. This will include
         margin: 5rem auto;
         width: 100%;
         text-align: center;
+        display: flex;
+        justify-content: space-around;
     }
 
        
     nav ul a{
         
         padding: 2rem;
-        margin-left:20px;
-        margin-right:20px;
+        margin-left:10px;
+        margin-right:10px;
         vertical-align: center;
         text-decoration-line: none;
         color: white;
@@ -146,13 +148,25 @@ to all content such that your webpage matches the design file. This will include
     width: 20rem;
 }
 
-
-#footimg{
-
+.footer{
+    max-width: inherit;
+    position: relative;
+    overflow:hidden;
     width: 100%;
+    max-width: 100%;
+
+}
+.footer img {
+    max-width: 100%;
 }
 
 .footer nav{
     background-color: #F9E7DC;
     vertical-align: center;
+    padding: 4rem;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
