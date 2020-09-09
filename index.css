@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+/* Above is the CSS Reset. 
+Now begin with your own CSS */
+
+/*Color the background of items in the navigation bar and footer with the following colors:
+        Plan your Visit: #FF764E
+        Learn About the Park: #5ED3EB
+        Get Involved: #FFCD69
+
+Change all font colors and styles according to design file
+
+Yosemite Park Guide font is called Chelsea Market and can be found on google fonts
+All other text is Roboto Mono, also available on google fonts
+
+Color the background of the main text body with #DDB9A3
+
+Color the background of the footer with #F9E7DC
+
+Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+
+Apply box model properties (content, padding, margin, and border) 
+to all content such that your webpage matches the design file. This will include at least:
+    -A round image in the header
+    -Round corners on navigation and footer items
+    -Header image and text side by side
+    -Centered content and margins around content
+    -Footer image positioning*/
+
+    body{
+        font-family: 'Roboto Mono', monospace;
+        margin: auto 10px;
+        width: inherit;
+        justify-content: center;
+    }
+    nav{
+        margin: 50px auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+       
+    nav ul a{
+        
+        padding: 2rem;
+        margin-left:10px;
+        margin-right:10px;
+        vertical-align: center;
+        text-decoration-line: none;
+        color: white;
+        border-radius: 15px;
+        display: inline-block;
+
+    }
+   
+    #link1{
+        background-color: #FF764E;
+    }
+
+    #link2{
+        background-color: #5ed3eb;
+    }
+
+    #link3{
+        background-color: #ffcd69;
+    }
+
+.header{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+#imgHeader{
+    border-radius:50%;
+    width: 25rem;
+  
+    
+}
+
+.header div{
+    height: inherit;
+    padding: 2rem;
+    text-align: center;
+}
+.header div h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+ 
+
+}
+.header div h2{
+    margin: 1rem;
+}
+
+
+
+
+.main{
+
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2rem;
+    margin: 4rem 2rem;
+
+}
+.main p {
+    margin:1rem;
+}
+
+.main2{
+  
+    text-align: center;
+
+}
+
+.main2 p {
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 10%;
+}
+
+.icon{
+    width: 10rem;
+}
+
+.footer{
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+    max-width: 100%;
+}
+.footer img {
+    max-width: 100%;
+}
+
+.footer nav{
+    background-color: #F9E7DC;
+    vertical-align: center;
+    padding: 5rem;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
